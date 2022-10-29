@@ -1,0 +1,20 @@
+{
+  "name": "node-js---practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1_Bismillah.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MShahedRahman/MERN_NODE.JS_Practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MShahedRahman/MERN_NODE.JS_Practice/issues"
+  },
+  "homepage": "https://github.com/MShahedRahman/MERN_NODE.JS_Practice#readme"
+}
