@@ -14,6 +14,7 @@ var server = http.createServer(function(req,res){
         });
     }*/
 
+/*
 // Writing any file Asynchronously
     if(req.url == '/')
     {
@@ -32,6 +33,55 @@ var server = http.createServer(function(req,res){
             }  
         });
     }
+    */
+
+/*
+// Renaming a file 
+
+if(req.url == '/')
+    {
+        fs.rename('demo_Asynchronous.txt', 'renamed_demo_Asynchronous.txt',
+        function(error)
+        {
+            if(error){
+                res.writeHead(200, {'Content-Type':'text/html'});
+                res.write("File Rename Fail");
+                res.end();
+            }
+            else{
+            res.writeHead(200, {'Content-Type':'text/html'});
+            res.write("File Rename Successful");
+            res.end(); 
+            }  
+        });
+    }
+*/
+
+/* 
+
+//Deleting or Unlinking a File 
+
+if(req.url == '/')
+    {
+        fs.unlink ('renamed_demo_Asynchronous.txt',
+        function(error)
+        {
+            if(error){
+                res.writeHead(200, {'Content-Type':'text/html'});
+                res.write("File Delete/Unlinking Fail");
+                res.end();
+            }
+            else{
+            res.writeHead(200, {'Content-Type':'text/html'});
+            res.write("File Delete/Unlinking Successful");
+            res.end(); 
+            }  
+        });
+    }
+
+
+*/
+
 });
 
 server.listen(4040);
